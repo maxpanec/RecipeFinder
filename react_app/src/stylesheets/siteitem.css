@@ -1,0 +1,18 @@
+.site-checkbox-container{
+    color: white;
+}
+
+.site-checkbox{
+    display: inline-block;
+    width: 6em;
+    position: relative;
+    top: -3em;
+}
+
+.site-checkbox-label{
+    display: inline-block;
+    width: 7em;
+    margin-right: .5em;
+    padding-top: 1.5em;
+    user-select: none;
+}

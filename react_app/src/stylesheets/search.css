@@ -1,0 +1,95 @@
+.search-form{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.search-textbox-container{
+    box-sizing: border-box;
+    border: 0.125rem solid black;
+    background-color: white;
+    border-radius: 0.625rem;
+    display: inline-block;
+    position: relative;
+    height: 2.1875rem;
+    width: 15.625rem;
+}
+
+.search-textbox-container > *{
+    border: none;
+    border-radius: 0.625rem;
+    background-color: white;
+    outline: none;
+    position: absolute;
+    top: 0rem;
+}
+
+.search-textbox{
+    left: 0rem;
+    height: 95%;
+    width: 13.4375rem;
+    padding-right: 0.625rem;
+    font-size: 120%;
+}
+
+#search-icon{
+    font-size: 1.5625rem;
+    top: 0.1875rem;
+    right: 0rem;
+    user-select: none;
+}
+
+
+.search-button-container{
+    position: relative;
+    left: 0.625rem;
+    display: inline-block;
+}
+
+.search-button-container > *{
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.search-button{
+    padding-right: 1.25rem;
+    background-color: #262626;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#search-drop-arrow{
+    top: .45rem;
+    right: 1.4rem;
+    user-select: none;
+}
+
+.search-options-flex-wrapper{
+    display: none;
+    text-align: center;
+}
+
+.search-options-flex-container{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    text-align: center;
+}
+
+.search-options-flex-child{
+    flex: 1;
+    text-align: center;
+}
+
+.site-options-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,6.9375rem);
+    grid-gap: .75rem;
+}
+
+.search-slider-container{
+    color: white;
+}

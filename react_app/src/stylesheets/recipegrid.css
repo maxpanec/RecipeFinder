@@ -1,0 +1,38 @@
+.results-grid {
+    display: grid auto;
+    padding: .5rem;
+    text-align: center;
+}
+
+.results-grid-item{
+    border: 0.0625rem solid rgba(184, 165, 165, 0.8);
+    border-radius: 100%;
+    display: inline-block;
+    padding: .5rem;
+    margin: .5rem;
+    vertical-align: top;
+    width: 10rem;
+    height: 10rem;
+}
+
+.results-grid-item:hover{
+    background-color: lightblue;
+}
+
+.results-grid-item-wrapper{
+    position: relative;
+    top: 2.5rem;
+}
+
+.recipe-link {
+    color: white;
+}
+
+.recipe-stars {
+    color: lightblue;
+}
+
+.loading {
+    font-size: 2rem;
+    color: white;
+}
